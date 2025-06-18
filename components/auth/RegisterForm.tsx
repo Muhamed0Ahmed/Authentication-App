@@ -32,6 +32,7 @@ export const RegisterForm = () => {
         .then((data) => {
             setError(data.error);
             setSuccess(data.success || "")
+            
         })
 
     }
@@ -88,7 +89,7 @@ export const RegisterForm = () => {
                                       <Input
                                       {...field}
                                       placeholder="123456"
-                                      type='password'
+                                      type="password"
                                       />  
                                     </FormControl>
                                     <FormMessage/>
