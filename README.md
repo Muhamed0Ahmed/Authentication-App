@@ -22,10 +22,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## env file
+contain
+
+DATABASE_URL=
+GOOGLE_CLIENT_ID =
+GOOGLE_CLIENT_SECRET=
+GITHUP_CLIENT_ID=
+GITHUP_CLIENT_SECRET = 
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=
+
+
 ## Learn More
 
 ## Website Description
-"Welcome to our advanced web application built with Next.js , designed to deliver a seamless and secure user experience. Our platform leverages cutting-edge technologies to provide robust Authentication and Authorization features, ensuring that your data remains protected while offering unparalleled flexibility and control.
+
 
 ## Key Features:
 # Advanced Authentication:
